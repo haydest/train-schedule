@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(165, 194, 165);
+};
+
+#info-body {
+  padding: 15px;
+  
+}
+
+#jumbotron {
+    background-color: rgb(194, 100, 100);
+}
+
+@media (max-width: 575.98px) {  };
+
+@media (max-width: 767.98px) {  };
+
+@media (max-width: 991.98px) {  };
+
+@media (max-width: 1199.98px) {  };
