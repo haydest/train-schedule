@@ -2,7 +2,7 @@
 <head>
   <title>train schedule</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <!---<link rel="stylesheet" type="text/css" href="style.css">--->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -69,7 +69,6 @@
 <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
 
 <script>
-  // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBTMxJo6IBeZbkiec80vQ5dtM6x5ONg8XA",
     authDomain: "gt201808-ea44b.firebaseapp.com",
@@ -96,8 +95,8 @@ var newTrain = {
     destination: trainDestination,
     first: firstTrain,
     frequency: trainFrequency,
-   // upNext: nextArrival,
-   // howFar: tMinutesTillTrain,
+    //upNext: nextArrival,
+    //howFar: tMinutesTillTrain,
 };
 
 database.ref().push(newTrain);
